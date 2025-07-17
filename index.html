@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>តោះរៀਨជាមួយប៉ាៗ</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind CDN removed: now using local build -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Content:wght@400;700&display=swap" rel="stylesheet">
@@ -32,7 +32,7 @@
        @keyframes float {
         0% { transform: translateY(0px); }
         50% { transform: translateY(-10px); }
-        100% { translateY(0px); }
+        100% { transform: translateY(0px); }
       }
       @keyframes shrink-width {
         from { width: 100%; }
@@ -123,7 +123,7 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+<link rel="stylesheet" href="/dist/output.css">
 </head>
 <body class="text-brand-text">
     <noscript>You need to enable JavaScript to run this app.</noscript>

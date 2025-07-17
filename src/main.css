@@ -1,0 +1,2 @@
+/* This file imports the built Tailwind CSS for production. */
+@import '../dist/output.css';
